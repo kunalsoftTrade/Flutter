@@ -40,6 +40,13 @@ class LoginPage extends StatelessWidget {
                     labelText: "Password",
                   ),
                 ),
+                SizedBox(height: 20.0), //space between textfields and button
+                ElevatedButton(
+                  onPressed: () {
+                    print("Hi Kunal, you are logged in!");
+                  },
+                  child: Text("Login"),
+                ),
               ],
             ), 
           ),
